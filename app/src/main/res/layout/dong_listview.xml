@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:layout_height="match_parent"
+    android:weightSum="2"
+    android:gravity="center">
+
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tvdate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Ngày"
+            android:textColor="#141313"
+            android:textSize="20dp" />
+        <TextView
+            android:textSize="15dp"
+            android:id="@+id/tvTrangthai"
+            android:text="Trạng thái"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+<LinearLayout
+    android:layout_weight="1"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:weightSum="3">
+
+        <ImageView
+            android:id="@+id/imvtrangthai"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:src="@drawable/b" />
+
+
+
+        <TextView
+            android:id="@+id/tvMax"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Max"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/tvHum"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Hum"
+            android:textSize="20dp" />
+    </LinearLayout>
+</LinearLayout>
+
+</LinearLayout>
